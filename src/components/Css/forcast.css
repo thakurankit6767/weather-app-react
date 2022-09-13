@@ -1,0 +1,68 @@
+.forcast-second-div {
+  margin-top: 1rem;
+  text-align: center;
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.95rem;
+  overflow-x: scroll;
+  margin-bottom: 1.5rem;
+  white-space: nowrap;
+  color: #2c3e50;
+  height: 15rem;
+}
+
+.forcastdiv {
+  position: relative;
+  margin: 0.25rem;
+  color: #2c3e50;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+.seconddiv {
+  background: #f3fbff;
+  color: #000000;
+  display: block;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  transition: box-shadow 0.3s ease-in;
+  cursor: pointer;
+}
+.seconddiv:hover {
+  border: 3px solid rgb(226, 20, 212);
+  border-radius: 5%;
+}
+
+.forcast-div-title {
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.temp-div {
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+}
+.pressurediv {
+  background: #f3fbff;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.75rem;
+  text-align: left;
+  margin-right: 0.5rem;
+}
+.tempraturediv {
+  background: #f3fbff;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0.75rem;
+}
+.forecastimage {
+  margin: 0.5rem;
+}
+.desc {
+  margin: 0 0 0.25rem;
+  font-weight: 600;
+  text-align: center;
+}

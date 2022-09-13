@@ -1,0 +1,32 @@
+.main-div-temparature {
+  color: #2c3e50;
+}
+.pressurehumid {
+  display: flex;
+  margin-bottom: 3rem;
+  text-align: left;
+  color: #2c3e50;
+}
+.sunname {
+  font-weight: 700;
+  text-align: center;
+  color: #2c3e50;
+}
+.suntime {
+  text-align: center;
+  color: #2c3e50;
+}
+.sunrise {
+  display: flex;
+  flex-direction: column;
+}
+.sunset {
+  display: flex;
+  flex-direction: column;
+}
+.sundiv {
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  color: #2c3e50;
+}

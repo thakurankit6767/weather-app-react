@@ -1,0 +1,7 @@
+.app {
+  max-width: 800px;
+  margin: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 600px;
+}

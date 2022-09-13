@@ -1,0 +1,85 @@
+.input-main-div {
+  border-radius: 5px;
+  box-shadow: 1px 2px 3px 1px #cccbcb;
+  display: grid;
+  font-size: 20px;
+  grid-template-columns: 15% 70% 15%;
+  height: 50px;
+  justify-content: space-around;
+  padding: 2px;
+  font-weight: 600;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  border: 2px solid green;
+}
+.locationsvg {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  text-align: center;
+}
+
+.location {
+  left: 1rem;
+
+  text-align: center;
+  color: #2c3e50;
+  font-weight: 600;
+}
+.inputdiv {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.input {
+  /* border:transparent; */
+  font-size: 20px;
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+}
+.bulk-data-container {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+
+.bulk-data {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 10%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.226);
+  cursor: pointer;
+}
+
+.bulk-data * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bulk-data-info > p {
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 300px) {
+  .bulk-data {
+    font-size: 14px;
+    padding: 10px 5%;
+  }
+  .input-box input {
+    font-size: 18px;
+  }
+}
